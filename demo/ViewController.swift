@@ -12,13 +12,16 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
-		print(MeriMarzi())
 		
 		first(id: 12, name: "ASAD")
 		second(id: 2, name: "ASAD ALI")
+
+		print(add())
+        print(subtract())
 	}
-    func MeriMarzi () -> Bool{
-        return true
+    
+    func add () -> Int{
+        return 2+3
     }
 	
 	func first(id: Int, name: String) {
@@ -27,5 +30,9 @@ class ViewController: UIViewController {
 	func second(id: Int, name: String) {
 		print("\(id) + \(name)")
 	}
+    
+    func subtract () -> Int{
+        return 2-3
+    }
 }
 
