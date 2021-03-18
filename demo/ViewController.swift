@@ -12,10 +12,17 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
-		print(MeriMarzi())
+		print(add())
+        print(subtract())
 	}
-    func MeriMarzi () -> Bool{
-        return true
+    
+    func add () -> Int{
+        return 2+3
     }
+    
+    func subtract () -> Int{
+        return 2-3
+    }
+    
 }
 
