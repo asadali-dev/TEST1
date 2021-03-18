@@ -13,9 +13,19 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
 		print(MeriMarzi())
+		
+		first(id: 12, name: "ASAD")
+		second(id: 2, name: "ASAD ALI")
 	}
     func MeriMarzi () -> Bool{
         return true
     }
+	
+	func first(id: Int, name: String) {
+		print("\(id) + \(name)")
+	}
+	func second(id: Int, name: String) {
+		print("\(id) + \(name)")
+	}
 }
 
