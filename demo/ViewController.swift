@@ -20,7 +20,10 @@ class ViewController: UIViewController {
 	}
     
     func add () -> Int{
-        return 2+3
+		let a = 2
+		let b = 3
+		
+        return a + b
     }
 	
 	func first(id: Int, name: String) {
