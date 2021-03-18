@@ -17,7 +17,6 @@ class ViewController: UIViewController {
 		second(id: 2, name: "ASAD ALI")
 
 		print(add())
-        print(subtract())
 	}
     
     func add () -> Int{
@@ -30,9 +29,5 @@ class ViewController: UIViewController {
 	func second(id: Int, name: String) {
 		print("\(id) + \(name)")
 	}
-    
-    func subtract () -> Int{
-        return 2-3
-    }
 }
 
